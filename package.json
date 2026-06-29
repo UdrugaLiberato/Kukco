@@ -1,0 +1,14 @@
+{
+  "name": "kuk-co",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KUK-CO d.o.o. — službena web stranica (elektroinstalacije jake i slabe struje).",
+  "scripts": {
+    "dev": "bunx tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch",
+    "build": "bunx tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "serve": "bunx serve ."
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
