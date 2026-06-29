@@ -38,6 +38,6 @@ There are no tests, linters, or CI.
 
 ## Notes
 
-- Contact form posts to **FormSubmit** (`action="https://formsubmit.co/jakov@kuk-co.hr"`); first submission requires a one-time email confirmation. No server-side code in this repo.
+- No contact form / backend. The Kontakt section offers direct phone (`tel:`) and email (`mailto:` — `jakov@kuk-co.hr`, `kristina@kuk-co.hr`) links plus an embedded OpenStreetMap iframe. (A FormSubmit form was removed at the client's request.)
 - `500+ projekata` stat and `Pon–Pet 07:00–15:00` hours are placeholders pending real figures.
 - Deploy is just static file hosting; publish everything except `node_modules/` and `src/`.
