@@ -9,9 +9,9 @@
   function onScroll() {
     if (!nav) return;
     if (window.scrollY > 12) {
-      nav.classList.add("bg-ink-950/90", "shadow-lg", "shadow-ink-950/30");
+      nav.classList.add("bg-white/95", "shadow-lg", "shadow-ink-900/10");
     } else {
-      nav.classList.remove("bg-ink-950/90", "shadow-lg", "shadow-ink-950/30");
+      nav.classList.remove("bg-white/95", "shadow-lg", "shadow-ink-900/10");
     }
   }
   window.addEventListener("scroll", onScroll, { passive: true });

@@ -5,8 +5,8 @@
   "lang": "hr",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#0d1b33",
-  "theme_color": "#0d1b33",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
   "icons": [
     {
       "src": "favicon.svg",

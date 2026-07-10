@@ -45,7 +45,7 @@
   }
 
   .btn-primary {
-    @apply btn bg-electric-500 text-ink-950 shadow-glow hover:bg-electric-400 hover:-translate-y-0.5;
+    @apply btn bg-electric-500 text-white shadow-glow hover:bg-electric-400 hover:-translate-y-0.5;
   }
 
   .btn-secondary {
@@ -53,7 +53,7 @@
   }
 
   .btn-ghost {
-    @apply btn border border-white/25 bg-white/5 text-white backdrop-blur hover:bg-white/10;
+    @apply btn border border-ink-300 bg-white/70 text-ink-800 backdrop-blur hover:border-brand-300 hover:bg-white hover:text-brand-700;
   }
 
   .eyebrow {
